@@ -1,0 +1,33 @@
+$fondo-titulo:  rgb(255, 196, 108) ;
+$fondo-nombre: rgb(184, 179, 179);
+$color-titulo:  black;
+$color-nombre: black; 
+
+.nosotras {
+    height: 250px;
+    margin-top: 10px;
+
+    .titulo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: $fondo-titulo;
+        color:$color-titulo;
+        display: flex;
+        justify-content: space-around;
+        font-family: cursive;
+        padding: 10px 10px;
+
+    }
+    .nombre {
+        font-family: cursive;
+        color: $color-nombre;
+        background-color: $fondo-nombre;
+        font-size: 20px;
+        margin-top: 10px;
+   }
+   .description {
+    
+        font-size: 10px;
+        font-family: cursive;
+   }
+}

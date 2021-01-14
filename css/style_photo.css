@@ -1,0 +1,54 @@
+.encabezado {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fcbcb5;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  font-family: cursive;
+  padding: 10px 10px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+}
+.fotos .fotos-unidad {
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.fotos .fotos-unidad div p {
+  font-weight: bolder;
+  color: #e77f7f;
+  font-family: cursive;
+  text-align: center;
+  padding: 10px 10px;
+}
+.fotos .fotos-unidad div img {
+  padding: 10px 10px;
+  height: 400px;
+  width: 400px;
+}
+.fotos .letra {
+  color: black;
+  font-family: cursive;
+  padding: 0px 30px;
+}
+.fotos .letra li {
+  line-height: 0, 5cm;
+}
+
+.carrusel {
+  margin-top: 20px;
+  background-color: rgba(241, 188, 107, 0.644);
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel {
+  width: 400px;
+}
+
+/*# sourceMappingURL=style_photo.css.map */

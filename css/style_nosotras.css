@@ -1,0 +1,23 @@
+.nosotras {
+  height: 250px;
+  margin-top: 10px;
+}
+.nosotras .titulo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffc46c;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  font-family: cursive;
+  padding: 10px 10px;
+}
+.nosotras .nombre {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  background-color: #b8b3b3;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style_nosotras.csss.map */
